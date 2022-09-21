@@ -1,4 +1,5 @@
-import _ from 'lodash';
+// import _ from 'lodash';
+// import setupDebugger from './debugger';
 
  function component() {
    const element = document.createElement('div');
@@ -6,10 +7,10 @@ import _ from 'lodash';
 
    element.classList.add("hello");
 
-   element.innerHTML = _.join(['Hello iran', 'webpack'], ' ');
+  //  element.innerHTML = _.join(['Hello iran', 'webpack'], ' ');
 
    btn.innerHTML = 'Click me and check the console!';
-   btn.onclick = setupDebugger;
+  //  btn.onclick = setupDebugger;
 
    element.appendChild(btn);
 
